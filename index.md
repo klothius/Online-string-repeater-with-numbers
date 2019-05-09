@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to online string repeater with numbers
 
-You can use the [editor on GitHub](https://github.com/klothius/Online-string-repeater-with-numbers/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This will let you repeat strings or sentences with incremental numbers in them up to 10000 times!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+No more will you have to copy, paste and replace the numbers you need. This is unnecessary and tedious work.
+
+<script>alert('baba');</script>
 
 ### Markdown
 
