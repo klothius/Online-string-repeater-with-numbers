@@ -1,0 +1,24 @@
+<div class="container">
+    <textarea class="input"></textarea>
+    <label>
+      <input type="checkbox" class="add-newline">
+      Should there be a new line between the repeats?
+    </label>
+    <input type="text" class="repeat-number">
+    <textarea class="output"></textarea>
+</div>
+<script>
+function doWork () {
+  let input = document.querySelector('textarea.input').textContent;
+  let shouldAddNewLine = document.querySelector('.add-newline').checked;
+  let repeatNumber = document.querySelector('.repeat-number').value;
+  let output = input;
+  for (let i = 1; i <= repeatNumber; i++) {
+    if (shouldAddNewLine) {
+      output += '\n';
+    }
+    output += input.replace('{n}', i);
+  }
+  document.querySelector('textarea.output').value = output;
+}
+</script>
