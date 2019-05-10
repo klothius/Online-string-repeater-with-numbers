@@ -1,11 +1,11 @@
 <div class="container">
-    <textarea rows="15" class="input"></textarea>
+    <textarea class="input"></textarea>
     <label>
       <input type="checkbox" class="add-newline">
       Should there be a new line between the repeats?
     </label>
-    <label>How many times to repeat?<input type="text" class="repeat-number"></label>
-    <textarea rows="30" class="output"></textarea>
+    <input type="text" class="repeat-number">
+    <textarea class="output"></textarea>
 </div>
 <script>
 function doWork () {
@@ -24,12 +24,9 @@ function doWork () {
 </script>
 <style>
 .container {
-  max-width: 480px;
+  max-width: 960px;
   margin: auto;
   display: flex;
   flex-direction: column;
-}
-.container > * {
-  margin-bottom: 10px;
 }
 </style>
